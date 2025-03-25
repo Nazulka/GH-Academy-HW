@@ -13,7 +13,3 @@ Status colors list:
 - 🟢 Week 1
 - 🔴 Week 2
 
-## DS & A Homeworks Status
-
-- 🟢 Week 1
-- 🔴 Week 2
