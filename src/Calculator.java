@@ -22,8 +22,6 @@ public class Calculator {
         System.out.println(studentAge);
         System.out.println(studentFee);
         System.out.println(studentGrade);
-
-
     }
 
-    }
+}
