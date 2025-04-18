@@ -1,8 +1,5 @@
-package problems;
+package? problems;
 
-import org.w3c.dom.ls.LSOutput;
-
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Problem2960 {
@@ -11,10 +8,12 @@ public class Problem2960 {
         int a = sc.nextInt();
         int b = sc.nextInt();
         if
-            (b == a){
+        ((b == 1 && a == 1) ||
+        ( b !=1 && a !=1)) {
                 System.out.println("YES");
-        }
-        System.out.println("NO");
+        } else {
 
+            System.out.println("NO");
+        }
     }
 }
