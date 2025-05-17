@@ -11,6 +11,15 @@ public class Problem1456 {
             arr[i] = sc.nextInt();
         }
 
+        int petyasheight = sc.nextInt();
+        int position = 1;
+        for (int i = 0; i < n; i++) {
+
+            if (arr[i] >= petyasheight) {
+                position++;
+            }
+
+        }System.out.print(position);
 
     }
 }
