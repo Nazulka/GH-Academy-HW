@@ -16,6 +16,28 @@ public class Problem1457 {
             arr[i] = i+1;
         }
 
+        int start = a-1;
+        int end = b-1;
+        while (start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
 
+        start = c - 1;
+        end = d - 1;
+        while (start < end) {
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
+
+        for (int num : arr) {
+            System.out.print(num + " ");
+        }
     }
 }

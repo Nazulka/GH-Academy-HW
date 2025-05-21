@@ -1,6 +1,7 @@
 package problems;
 
-public class Palindrome {
+public class
+Palindrome {
     public static void main(String[] args) {
         String palindrome = "madam";
         String reversed = "";
